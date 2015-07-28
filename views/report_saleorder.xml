@@ -2,7 +2,6 @@
 <!-- gemma commit 5 -->
 <openerp>
     <data>
-
 <template id="report_saleorder_document">
 <t t-name="sale.report_saleorder_document">
     <t t-call="report.external_layout">
@@ -117,7 +116,6 @@
         </div>
     </t>
 </t>
-
-
-    </data>
+</template>
+</data>
 </openerp>
