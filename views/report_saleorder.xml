@@ -2,8 +2,7 @@
 <!-- gemma commit 5 -->
 <openerp>
     <data>
-<template id="report_saleorder_document">
-<t t-name="sale.report_saleorder_document">
+<template name="report_saleorder_document" id="report_saleorder_document">
     <t t-call="report.external_layout">
         <div class="page" style="font-size:12px;font:Liberation Sans">
             <div class="oe_structure"/>
@@ -114,7 +113,6 @@
             </p>
             <div class="oe_structure"/>
         </div>
-    </t>
 </t>
 </template>
 </data>
