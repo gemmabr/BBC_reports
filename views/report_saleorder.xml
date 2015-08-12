@@ -2,7 +2,7 @@
 <!-- gemma commit 5 -->
 <openerp>
     <data>
-<template name="report_saleorder_document" id="report_saleorder_document">
+<template name="report_saleorder_BBCreport" id="report_saleorder_BBCreport">
     <t t-call="report.external_layout">
         <div class="page" style="font-size:12px;font:Liberation Sans">
             <div class="oe_structure"/>
