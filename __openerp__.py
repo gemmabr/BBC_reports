@@ -33,7 +33,7 @@
 
     """,
     "data": [
-        "views/report_saleorder.xml",
+        "views/report_saleorderBBC.xml",
     ],
     "installable": True,
 }
