@@ -22,7 +22,7 @@
                     <div t-field="o.partner_id" t-field-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;address&quot;, &quot;name&quot;], &quot;no_marker&quot;: true}"/>
                 </div>
             </div>
-
+hola món
             <h2>
                 <span t-if="o.state not in ['draft','sent']">Order N° </span>
                 <span t-if="o.state in ['draft','sent']">Acknowledgement of receipt</span>
