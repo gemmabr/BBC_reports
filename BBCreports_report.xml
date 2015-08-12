@@ -6,8 +6,8 @@
             string="Order confirmation"
             model="sale.order"
             report_type="qweb-pdf"
-            file="sale.report_saleorderBBC"
-            name="sale.report_saleorderBBC"
+            file="BBCreports.report_saleorderBBC"
+            name="BBCreports.report_saleorderBBC"
         />
   </data>
 </openerp>
