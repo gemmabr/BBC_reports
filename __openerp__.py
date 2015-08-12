@@ -34,7 +34,6 @@
     """,
     "data": [
         "views/report_saleorderBBC.xml",
-        "BBC_reports_report.xml",
     ],
     "installable": True,
 }
