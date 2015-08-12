@@ -2,7 +2,7 @@
 <openerp>
     <data>
         <report
-            id="report_saleorderBBC"
+            id="report_saleorderBBC1"
             string="Order confirmation"
             model="sale.order"
             report_type="qweb-pdf"
