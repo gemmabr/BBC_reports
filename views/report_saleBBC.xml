@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-<template name="report_saleBBC" id="report_saleBBC">
+<template name="report_saleBBC_document" id="report_saleBBC_document">
     <t t-call="report.external_layout">
         <div class="page" style="font-size:12px;font:Liberation Sans">
             <div class="oe_structure"/>
@@ -114,5 +114,12 @@
         </div>
     </t>
 </template>
+
+<template id="report_saleBBC">
+	<t t-call="report.html_container>
+		<t t-foreach="doc_ids" t-as="doc_id">
+			<t t-raw "translate_doc(doc_id, doc_model, 'partner_id.lang', 'sale.report_saleBBC_document')"/>
+		</t>
+	</t>
 </data>
 </openerp>
