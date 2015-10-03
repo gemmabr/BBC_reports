@@ -34,7 +34,7 @@
     """,
     "data": [
         "views/report_saleBBC.xml",
-        "BBC_reports_report.xml",
+        "BBCreports_report.xml",
     ],
     "installable": True,
 }
