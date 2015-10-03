@@ -4,7 +4,7 @@
         <report
             id="report_saleBBC"
             string="Hello World"
-            model="BBCreports"
+            model="sale.order"
             report_type="qweb-pdf"
             file="BBCreports.report_saleBBC"
             name="BBCreports.report_saleBBC"
