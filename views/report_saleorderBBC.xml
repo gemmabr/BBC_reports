@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- gemma commit 5 -->
-<openerp>
+lhos<openerp>
     <data>
 <template name="report_saleorderBBC" id="report_saleorderBBC">
     <t t-call="report.external_layout">
@@ -110,6 +110,7 @@ hola món
             <p t-if="o.payment_term.note">
                 <strong>Payment Term:</strong>
                 <span t-field="o.payment_term.note"/>
+                ** REPORT_SALEORDER DE BBC **
             </p>
             <div class="oe_structure"/>
         </div>
