@@ -116,7 +116,7 @@
 </template>
 
 <template id="report_saleBBC">
-	<t t-call="report.html_container>
+	<t t-call="report.html_container">
 		<t t-foreach="doc_ids" t-as="doc_id">
 			<t t-raw "translate_doc(doc_id, doc_model, 'partner_id.lang', 'sale.report_saleBBC_document')"/>
 		</t>
