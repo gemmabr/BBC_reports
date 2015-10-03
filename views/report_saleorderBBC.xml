@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- gemma commit 5 -->
 <openerp>
     <data>
 <template name="report_saleorderBBC" id="report_saleorderBBC">
