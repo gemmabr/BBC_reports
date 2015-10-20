@@ -3,11 +3,11 @@
     <data>
         <report
             id="report_saleBBC"
-            string="Hello World"
+            string="Reporte BBC"
             model="sale.order"
             report_type="qweb-pdf"
-            file="BBCreports.report_saleBBC"
-            name="BBCreports.report_saleBBC"
+            file="BBCreports.report_saleorder_bbc"
+            name="BBCreports.report_saleorder_bbc"
         />
     </data>
 </openerp>
