@@ -21,7 +21,6 @@
     "version": "1.0",
     "depends": [
         "sale",
-	"stock",
     ],
     "author": "OdooMRP team,"
               "AvanzOSC,"
@@ -35,7 +34,6 @@
     """,
     "data": [
         "views/report_saleBBC.xml",
-	    "views/report_deliverynoteBBC.xml",
         "sale_report.xml",
     ],
     "installable": True,

@@ -9,13 +9,5 @@
             file="BBCreports.report_saleorder_bbc"
             name="BBCreports.report_saleorder_bbc"
         />
-        <report
-            id="report_deliverynoteBBC"
-            string="Albaran BBC"
-            model="stock.picking"
-            report_type="qweb-pdf"
-            file="BBCreports.report_pickingBBC"
-            name="BBCreports.report_pickingBBC"
-        />
     </data>
 </openerp>
