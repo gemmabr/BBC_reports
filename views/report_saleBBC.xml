@@ -134,7 +134,6 @@
                     <p t-if="o.payment_term.note">
                         <strong>Payment Term:</strong>
                         <span t-field="o.payment_term.note" />
-                        ** REPORT_SALE DE BBC **
                     </p>
                     <div class="oe_structure" />
                 </div>
