@@ -16,7 +16,7 @@
                                         <span><strong>Warehouse Address:</strong></span>
                                     </div>
                                     <div t-if="o.picking_type_id.code=='outgoing' and o.partner_id">
-                                        <span><strong>Invoice Address:</strong></span>
+                                        <span><strong>Invoice address:</strong></span>
                                     </div>
                                     <div t-if="o.sale_id.partner_invoice_id" name="partner_header">									
                                         <div t-field="o.sale_id.partner_invoice_id" t-field-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;address&quot;, &quot;name&quot;, &quot;phone&quot;, &quot;fax&quot;], &quot;no_marker&quot;: true}"/>
