@@ -22,6 +22,8 @@
     "depends": [
         "sale",
 	"stock",
+        "purchase",
+	"account",
     ],
     "author": "OdooMRP team,"
               "AvanzOSC,"
@@ -35,8 +37,10 @@
     """,
     "data": [
         "views/report_saleBBC.xml",
-	    "views/report_deliverynoteBBC.xml",
-        "sale_report.xml",
+	"views/report_deliverynoteBBC.xml",
+        "views/report_purchaseBBC.xml",
+        "views/report_saleinvoiceBBC.xml",
+        "BBCreports_report.xml",
     ],
     "installable": True,
 }
